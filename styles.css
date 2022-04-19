@@ -196,3 +196,49 @@ p {
     justify-content: flex-end;
     font-weight: bold;
 }
+
+.main.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    display: flex;
+    flex: 1 1 auto;
+    background-color: #3882f6;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 8px;
+}
+
+.button-container {
+    display: flex;
+    border-color: white;
+    border-style: solid;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cta-message-container {
+    display:flex;
+    flex-direction: column;
+    padding: 30px;
+    padding-left: 70px;
+}
+.cta-message {
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cta-text {
+    color: #e5e7eb;
+    font-size: 12px;
+}
