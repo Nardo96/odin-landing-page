@@ -172,3 +172,27 @@ p {
     text-align: center;
     
 }
+
+.main.three {
+    display: flex;
+    flex-direction: column;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+}
+
+.quote {
+    display: flex;
+    flex: 1;
+    color: #616b72;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
