@@ -1,28 +1,31 @@
-* {
-    border-color: black;
-    border-width: 3px;
-    background-color: white;
-    border-style: solid;
-}
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #1f2937;
+
 }
 
 .header {
     display: flex;
+    background-color: #1f2937;
 }
 
 .logo {
-    margin-left: 250px;
+    margin-left: 200px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
 }
 
 .header-links {
     margin-left: auto;
-    margin-right: 250px;
+    margin-right: 200px;
     display: flex;
+    padding: 10px;
+    gap: 10px;
+    
 }
 .footer {
     margin-top: auto;
@@ -31,6 +34,7 @@ body {
     height: 72px;
     justify-content: center;
     align-items: center;
+    color: #e5e7eb;
 
 
 }
@@ -43,4 +47,19 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.two, .four {
+background-color: white;
+}
+
+.three {
+    background-color: #e5e7eb;
+
 }
