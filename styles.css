@@ -13,17 +13,18 @@ body {
 }
 
 .logo {
-    margin-left: 200px;
+    margin-left: 0;
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
+    padding: 30px;
 }
 
 .header-links {
     margin-left: auto;
-    margin-right: 200px;
+    margin-right: 0px;
     display: flex;
-    padding: 10px;
+    padding: 30px;
     gap: 20px;
     
 }
@@ -74,17 +75,13 @@ background-color: white;
 
 .main.one {
     display: flex;
-    padding: 50px 200px 80px;
+    padding: 50px 30px 80px;
+    justify-content: center;
+    align-items: center;
     
     
 }
 
-.sub{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
 
 h1 {
     color: #f9faf8;
@@ -118,13 +115,17 @@ p {
 
 .sub.one {
     padding-right: 20px;
+    width: 400px;
 }
 
 .sub.two {
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #616b72;
     color: #f9faf8;
+    width: 400px;
+    height: 200px;
 }
 
 .main.two {
@@ -176,24 +177,24 @@ p {
 .main.three {
     display: flex;
     flex-direction: column;
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
     padding-bottom: 50px;
-    
+    justify-content: center;
+    align-items: center;
 }
 
 .quote {
-    display: flex;
-    flex: 1;
     color: #616b72;
     font-size: 22px;
     font-style: italic;
+    width: 400px;
 }
 
 .author {
-    display: flex;
-    justify-content: flex-end;
+    width: 400px;
+    text-align: end;
     font-weight: bold;
 }
 
